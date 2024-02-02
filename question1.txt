@@ -1,0 +1,36 @@
+/*Each Step of the bubble sort process for the array [12, 6, 4, 9, 2]:
+1. Easy: Understanding Bubble Sort
+
+Certainly! Let's perform a dry run for the Bubble Sort algorithm on a different array: [12, 6, 4, 9, 2].
+
+Original Array: [12, 6, 4, 9, 2]
+
+Pass 1:
+
+Compare 12 and 6: Swap (result: [6, 12, 4, 9, 2])
+Compare 12 and 4: Swap (result: [6, 4, 12, 9, 2])
+Compare 12 and 9: Swap (result: [6, 4, 9, 12, 2])
+Compare 12 and 2: Swap (result: [6, 4, 9, 2, 12])
+After Pass 1: [6, 4, 9, 2, 12]
+
+Pass 2:
+
+Compare 6 and 4: Swap (result: [4, 6, 9, 2, 12])
+Compare 6 and 9: No swap
+Compare 9 and 2: Swap (result: [4, 6, 2, 9, 12])
+After Pass 2: [4, 6, 2, 9, 12]
+
+Pass 3:
+
+Compare 4 and 6: No swap
+Compare 6 and 2: Swap (result: [4, 2, 6, 9, 12])
+After Pass 3: [4, 2, 6, 9, 12]
+
+Pass 4:
+
+Compare 4 and 2: Swap (result: [2, 4, 6, 9, 12])
+After Pass 4: [2, 4, 6, 9, 12]
+
+Final Sorted Array: [2, 4, 6, 9, 12]
+
+The array is sorted using the Bubble Sort algorithm after these passes.
